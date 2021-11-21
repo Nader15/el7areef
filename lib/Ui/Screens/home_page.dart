@@ -26,11 +26,11 @@ class _HomePageState extends State<HomePage> {
         drawer: CustomHomeDrawer(),
         bottomNavigationBar: Row(
           children: [
-            BuildNavBar('images/tournament.svg', 'images/tournament.svg', 'الدورات',
+            BuildNavBar('assets/images/tournament.svg', 'assets/images/tournament.svg', 'الدورات',
                 true, 2),
             BuildNavBar(
-                'images/team1.svg', 'images/team1.svg', 'فريقك', true, 1),
-            BuildNavBar('images/HomeIcon1.svg', 'images/HomeIcon2.svg', 'الرئيسية',
+                'assets/images/team1.svg', 'assets/images/team1.svg', 'فريقك', true, 1),
+            BuildNavBar('assets/images/HomeIcon1.svg', 'assets/images/HomeIcon2.svg', 'الرئيسية',
                 true, 0),
           ],
         ),
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                 name,
                 style: TextStyle(
                     color:
-                        index == _currentIndex ? Colors.blue : Colors.grey,fontFamily: "custom_font",fontSize: 13),
+                        index == _currentIndex ? Colors.blue : Colors.grey,fontFamily: "Saira_Regular",fontSize: 13),
               )
             ],
           )),

@@ -43,8 +43,11 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/
+    - assets/images/
   fonts:
-    - family: custom_font
+    - family: Saira_Bold
       fonts:
-        - asset: font/custom_font.ttf
+        - asset: assets/fonts/SairaSemiCondensed-Bold.ttf
+    - family: Saira_Regular
+      fonts:
+        - asset: assets/fonts/SairaSemiCondensed-Regular.ttf
