@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               radius: 15,
                               backgroundColor: whiteColor,
                               backgroundImage:
-                                  AssetImage("images/playerImage.jpg"),
+                                  AssetImage("assets/images/playerImage.jpg"),
                             ),
                             SizedBox(
                               width: 20,
@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               style: TextStyle(
                                   color: whiteColor,
                                   fontSize: 25,
-                                  fontFamily: 'custom_font'),
+                                 ),
                             )),
                       ],
                     ),
@@ -106,7 +106,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           hintStyle: TextStyle(
                               color: whiteColor.withOpacity(.5),
-                              fontFamily: 'custom_font',
                               fontSize: 13)),
                     ),
                   ),
@@ -218,7 +217,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                               child: Text(
                                                 "ارسال",
                                                 style: TextStyle(
-                                                    fontFamily: 'custom_font'),
+                                                   ),
                                               )),
                                           FlatButton(
                                               onPressed: () {
@@ -227,7 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                               child: Text(
                                                 "الرجوع للتطبيق",
                                                 style: TextStyle(
-                                                    fontFamily: 'custom_font'),
+                                                   ),
                                               ))
                                         ],
                                         content: Container(
@@ -251,7 +250,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Text("ارسال",
                                 style: TextStyle(
                                   color: whiteColor.withOpacity(.5),
-                                  fontFamily: 'custom_font',
                                 ))),
                       )
                     ],
@@ -268,7 +266,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           style: TextStyle(
                               color: whiteColor,
                               fontSize: 25,
-                              fontFamily: 'custom_font'),
+                          ),
                         )),
                   ),
                   SizedBox(
@@ -308,8 +306,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           "اخر النشاطات",
                           style: TextStyle(
                               color: whiteColor,
-                              fontSize: 25,
-                              fontFamily: 'custom_font'),
+                              fontSize: 25, ),
                         )),
                   ),
 

@@ -7,6 +7,10 @@ void main() async {
   await Firebase.initializeApp();
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      canvasColor: Colors.transparent,
+      fontFamily: "Saira_Regular",
+    ),
     home: SplashScreen(),
     // home: CreateTeam(),
   ));
